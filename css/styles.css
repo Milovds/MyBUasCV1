@@ -2,7 +2,9 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Raleway:wght@500&display=swap');
 /* Styles for the body */
 
 body {
@@ -14,15 +16,21 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
+	font-family: 'Francois One', sans-serif;
     background-color: #2f455c;
+	color: white 
 }
 
 .resume-main {
+	font-family: 'Francois One', sans-serif;
+font-family: 'Raleway', sans-serif;
 	background-color: #c6dff06b;
 }
 
 .resume-aside {
-	background-color: #d1eaf0;
+	font-family: 'Francois One', sans-serif;
+font-family: 'Raleway', sans-serif;
+	background-color: #C4DAF2;
 }
 
 /* Styles for lists in the document */
