@@ -19,8 +19,12 @@
     <link rel="stylesheet" href="css/alternative.css">
      -->
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Milo van der Spek Resumé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
   </head>
+  
   <!-- End of the head -->
 
   <!-- Start of the body, which contains everything visible on the page -->
@@ -48,14 +52,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/schoolfoto.jpg" alt="Portrait of Firstname Lastname" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Firstname Lastname</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content text-end">
+          <h1 class="display-1 fw-bolder">Milo van der Spek</h1>
+          <h5 class="fst-italic tagline">Your professional in creating & producing content.</h5>
         </div>
       </header>
 
@@ -75,7 +79,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="display-6 text-center">Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -86,16 +90,16 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/productioncompany.png" alt="productioncompany" width="60">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Production Assistant, Production Company</h4>
-                  <h5>April&ndash;July 2019</h5>
+                  <h4>Production Company</h4>
+                  <h5>January 2023 &ndash; Now</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
-                    <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
+                    <li>Jumbo & Adecco - Journey Video</li>
+                    
+                    <li>Part of my projects are at Breda University of Applied Sciences</li>
                   </ul>
                 </div>
               </li>
@@ -104,11 +108,16 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/jobs/supermarket.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
-                  <h5>2018</h5>
+                  <h4>Work Experience</h4>
+                  <h5>Supermarket Employee</h5>
+                  <h6>2017 - 2018: Dirk</h6>
+                  <h6>2018 - 2020: Aldi</h6>
+                  <h6>2020 - 2022: Lidl</h6>
+                  <h6>2023 - Now: Albert Heijn</h6>
+
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
                 </div>
               </li>
@@ -119,22 +128,22 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="text-center">Current Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logobuas.svg" alt="logobuas" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2018&nbsp;&ndash;&nbsp;now</h5>
+                  <h4>Creative Business, Breda University of Applied Sciences</h4>
+                  <h5>2021&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
+                    <li>Editor of Kaplock</li>
+                    
+                    <li>Exchange with Salzburg University</li>
                   </ul>
                 </div>
               </li>
@@ -142,13 +151,14 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/hetvlier.png" alt="hetvlier" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
-                  <h5>2018</h5>
+                  <h4>
+                   Etty Hillesum Lyceum, Het Vlier </h4>
+                  <h5>2020</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>Havo High School Diploma: Economy & Society</li>
                   </ul>
                 </div>
               </li>
@@ -168,7 +178,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="text-center">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -177,27 +187,21 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+                <a class="d-flex align-items-center" href="mailto:214530@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
+                  214530@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
+                <a class="d-flex align-items-center" href="https://nl.linkedin.com/in/milo-van-der-spek-44313a208" target="_blank">
+                  <img class="contact-icon" src="images/icons/linkedin.svg" alt="linkedIn">
+                  Milo-van-der-spek
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="tel:+31612345678" target="_blank">
-                  <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
-                  +31 6 12345678
+                <a class="d-flex align-items-center" href="https://github.com/milovds" target="_blank">
+                  <img class="contact-icon" src="images/icons/github.svg" alt="github">
+                  Milovds
                 </a>
               </li>
             </ul>
@@ -206,7 +210,7 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2 class="text-center">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
@@ -225,16 +229,10 @@
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
+              
+              
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
@@ -247,21 +245,23 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="text-center">Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item">Entrepreneur</li>
+              <li class="skill-item">Experienced Editor</li>
+              <li class="skill-item">Sales Experience</li>
             </ul>
           </section>
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
+            <h2 class="text-center">Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Football</li>
+              <li class="skill-item">Eager to learn</li>
+              <li class="skill-item">Reading Books</li>
+              <li class="skill-item">Meditating</li>
             </ul>
           </section>
 
